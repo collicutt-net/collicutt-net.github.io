@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2020-12-19 06:40:34 -0600
-categories: jekyll
+title:  "Welcome to another post"
+date:   2020-12-16 06:40:34 -0600
+categories: jekyll azure
 header_image: "azure.jpg"
 header_permalink: "https://commons.wikimedia.org/w/index.php?curid=44832559"
 ---

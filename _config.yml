@@ -22,6 +22,8 @@ url: "http://collicutt.net" # the base hostname & protocol for your site, e.g. h
 twitter_username: ccollicutt
 github_username: ccolicutt
 
+permalink: /blog/:title:output_ext
+
 # Build settings
 markdown: kramdown
 #theme: minima

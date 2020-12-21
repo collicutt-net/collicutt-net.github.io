@@ -1,0 +1,56 @@
+<body class="page">
+
+{%include site-header.html %}
+        <div id="main" class="site-main">
+            <div id="main-content" class="single-page-content">
+              <div id="primary" class="content-area">
+  
+                <div class="page-title">
+                  <h1>Blog</h1>
+                </div>
+  
+                <div id="content" class="page-content site-content single-post" role="main">
+  
+                  <div class="row">
+                    <div class=" col-xs-12 col-sm-12 ">
+  
+                      <div class="blog-masonry two-columns clearfix">
+                        <!-- blog posts -->
+                        {% for post in site.posts %}
+                        <div class="item">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.categories[0] }}</a>
+                              </div>
+                              <a href="{{ post.url }}">
+                                {% if post.header_image %}
+                                <img src="/img/blog-headers/{{ post.header_image }}" alt="{{ post.title }}" title="" />
+                                {% else %}
+                                <img src="./img/blog/blog_post_6.jpg" alt="{{ post.title }}" title="" />
+                                {% endif %}
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">{{ post.date | date: '%B %d, %Y' }}</div>
+                              <a href="{{ post.url }}">
+                                <h4 class="blog-item-title">{{ post.title }}</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        {% endfor %}
+                      </div>
+
+                      <!-- end posts -->
+                      <!--
+                      <a class="btn btn-primary" href="#">See All Posts</a>
+                      -->
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+            </div>
+          </div>

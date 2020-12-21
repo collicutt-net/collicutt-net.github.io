@@ -1,0 +1,88 @@
+
+  <body class="page">
+
+{% include site-header.html %}
+
+        <div id="main" class="site-main">
+            <div id="main-content" class="single-page-content">
+              <div id="primary" class="content-area">
+                <div id="content" class="page-content site-content" role="main">
+  
+                  <article class="post">
+  
+                    <header class="entry-header">
+                      <div class="entry-meta entry-meta-top">
+                        <span><a href="#" rel="category tag">{{ page.categories[0] }}</a></span>      
+                      </div><!-- .entry-meta -->
+  
+                      <h2 class="entry-title">{{ page.title }}</h2>
+                    </header><!-- .entry-header -->
+  
+                    <div class="post-thumbnail">
+                      <img src="/img/blog-headers/{{ page.header_image }}" alt=""  />
+                    </div>
+  
+                    <div class="post-content">
+                      <div class="entry-content">
+  
+                        <div class="row">
+                          <div class=" col-xs-12 col-sm-12 ">
+{{ content }}
+                          </div>
+                        </div>
+  
+                      </div><!-- .entry-content -->
+    
+                      <div class="entry-meta entry-meta-bottom">
+                        <div class="date-author">
+                          
+                          <span class="entry-date">
+                            <a href="#" rel="bookmark">
+                              <i class="far fa-clock"></i>
+                              <time class="entry-date" datetime="{{ page.date }}">{{ page.date | date: '%B %d, %Y' }}</time>
+                            </a>
+                          </span>
+  
+                          <span class="author vcard">
+                            <a class="url fn n" href="#" rel="author">
+                              <i class="fas fa-user"></i>
+                              <span>ccollicutt</span>
+                            </a>
+                          </span>
+                        </div>
+    
+                        <!-- Share Buttons -->
+                        <div class="entry-share btn-group share-buttons">
+                          <a href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                          </a>
+      
+                          <a href="https://twitter.com/share?url=http://example.com/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          
+                          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://example.com/" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                          </a>
+                          
+                        </div>
+                        <!-- /Share Buttons -->
+                      </div>
+  
+                      <div class="post-tags">
+                        <span class="tags">
+                          {% for pcat in page.categories %}
+                          <a href="#" rel="tag">{{ pcat }}</a>
+                          {% endfor %}
+                        </span>
+                      </div>
+                    </div>
+                  </article>
+  
+  
+  
+  
+                </div>
+              </div>
+            </div>
+          </div>
