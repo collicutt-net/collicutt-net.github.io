@@ -18,5 +18,34 @@
     <link rel="stylesheet" href="/css/main.css" type="text/css">
 
     <script src="/js/modernizr.custom.js"></script>
+
+    <!-- Twitter cards -->
+    <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+    <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+    <meta name="twitter:title"   content="{{ page.title }}">
+
+    {% if page.summary %}
+    <meta name="twitter:description" content="{{ page.summary }}">
+    <!-- linked in -->
+    <meta property="og:description" content="{{ page.summary }}" />
+    <!-- end of linked in -->
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+
+    {% if page.header_image %}
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}/img/blog-headers/{{ page.header_image }}">
+    <!-- linked in -->
+    <meta property="og:image" content="{{ site.url }}/img/blog-headers/{{ page.header_image }}" />
+    <!-- end of linked in -->
+    {% else %}
+    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:image" content="{{ site.title_image }}">
+    {% endif %}
+    <!-- end of Twitter cards -->
   </head>
+
+
+
 

@@ -5829,3 +5829,18 @@ a.post-thumbnail:hover {
 /* ============================================================================= 
 15. Updates
 ============================================================================= */
+
+@media only screen and (min-width: 991px) {
+  .post-thumbnail {
+      max-width: auto;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      background: transparent;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
