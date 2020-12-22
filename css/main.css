@@ -5832,7 +5832,7 @@ a.post-thumbnail:hover {
 
 @media only screen and (min-width: 991px) {
   .post-thumbnail {
-      max-width: auto;
+      max-width: none;
       width: auto;
       margin-left: auto;
       margin-right: auto;
