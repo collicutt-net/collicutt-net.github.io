@@ -13,9 +13,9 @@ Recently I read Steve Martin’s [Born Standing Up](https://en.wikipedia.org/wik
 
 (There’s also a great [NPR podcast with Martin](https://www.npr.org/2020/05/08/852769010/steve-martin-on-his-years-as-a-comic-and-walking-away-from-stand-up) if you don’t have time to read the book.)
 
-**1. Success takes dedication and time. Maybe, for better or worse, longer than you think.**
+**1. Success takes dedication and time.**
 
-The first and second sentences in Steve Martin’s autobiography “Born Standing Up” are:
+The first couple of sentences in Steve Martin’s autobiography “Born Standing Up” are:
 
 > I did stand up comedy for 18 years. Ten of those years were spent learning, four years were spent refining, and four were spent in wild success.
 
