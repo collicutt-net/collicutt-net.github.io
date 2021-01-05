@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Six Things to Learn About Success From Steve Martin"
-date:   2020-12-22
+date:   2020-12-29
 categories: success
 summary: What if there's no punch line?
 header_image: "steve-martin.jpg"
@@ -9,7 +9,7 @@ header_permalink: "https://commons.wikimedia.org/w/index.php?curid=44832559"
 ---
 
 
-Recently I read Steve Martin’s [Born Standing Up](https://en.wikipedia.org/wiki/Born_Standing_Up). It’s a great autobiography and I believe there are many things to be learned from it (hence this post). Of course one can’t just take Martin’s path to success and follow it exactly, that would never work, but there are many interesting moments and understandings in the book that might help to provide reassurance or new approaches for those of us who are trying to succeed in things, whatever those things are. 
+Working from home has some positives, for example it's a bit easier to consume podcasts. I don't listen to a lot of podcasts, certainly some, but recently I stumbled onto the Rule of Three comedy podcast, and for whatever reason I started with the [Steve Martin](https://open.spotify.com/episode/0suzb41QRanBqPN9D2rfZE?si=dynm7JjyQrO9XUyRWSeEMg) episode. It was great, and made me think about how Steve Martin approached comedy, which lead me to read his autobiography: [Born Standing Up](https://en.wikipedia.org/wiki/Born_Standing_Up). It’s a great, quick read and I believe there are many things to be learned from it (hence this post). Of course one can’t just take Martin’s path to success and follow it exactly, that would never work, but there are many interesting moments and understandings in the book that might help to provide reassurance or new approaches for those of us who are trying to succeed in things, whatever those things are. 
 
 (There’s also a great [NPR podcast with Martin](https://www.npr.org/2020/05/08/852769010/steve-martin-on-his-years-as-a-comic-and-walking-away-from-stand-up) if you don’t have time to read the book.)
 
@@ -25,7 +25,7 @@ It's also important to note that Martin, once he was one of the worlds most soug
 
 **2. Success is found in non-ideal circumstances.**
 
-You’ll rarely be in the perfect situation or the right environment, or even feel that you are doing the right thing. But at some point...it’ll click.
+You’ll rarely be in the perfect situation or environment, or even feel that you are doing the right thing. But at some point...it’ll click.
 
 > Stand-up is seldom performed in ideal circumstances. Comedy's enemy is distraction, and rarely do comedians get a pristine performing environment. I worried about the sound system, ambient noise, hecklers, drunks, lighting, sudden clangs, latecomers, and loud talkers, not to mention the nagging concern “is this funny?”
 
