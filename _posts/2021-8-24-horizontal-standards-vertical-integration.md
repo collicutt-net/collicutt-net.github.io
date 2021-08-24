@@ -3,7 +3,7 @@ layout: post
 title:  "Costing Application Platforms: Horizontal Standards vs Vertical Integration"
 date:   2021-8-24
 categories: building-platforms
-summary: 
+summary: "Sometimes you just gotta go vertical"
 header_image: "hs-vi.jpg"
 ---
 
