@@ -48,7 +48,7 @@ There is an entire [website](https://internaldeveloperplatform.org) dedicated to
 
 ## Example of an Internal Developer Platform Framework: The Tanzu Application Platform
 
-Here's a screenshot of a supply chain in TAP, where the GUI is provided by [Backstage](https://backstage.io) (which is part of TAP). The image is of a particular supply chain workflow, in this case one that compiles a Java app, builds an image for it (without a Dockerfile), scans that image for security issues, and then finally runs the application using knative in Kubernetes. From source to running app.
+Here's a screenshot of a supply chain in the [Tanzu Applicaton Platform](https://tanzu.vmware.com/application-platform) (TAP), where the GUI is provided by [Backstage](https://backstage.io) (which is part of TAP). The image is of a particular supply chain workflow, in this case one that compiles a Java app, builds an image for it (without a Dockerfile), scans that image for security issues, and then finally runs the application using knative in Kubernetes. From source to running app.
 
 ![An example of the TAP GUI: compiling code, budiling an image, scanning it, and running it in Kubernetes](/img/blog-images/tap-image-scan.jpg)
 
