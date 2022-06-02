@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>collicutt.net - Personal website of Curtis Collicutt</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Personal website of Curtis Collicutt" />
-    <meta name="keywords" content="kubernetes application modernization infrastructure technology sociotechnical" />
-    <meta name="author" content="lmpixels" />
-    <link rel="shortcut icon" href="/favicon.ico">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>collicutt.net - Personal website of Curtis Collicutt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Personal website of Curtis Collicutt" />
+  <meta name="keywords" content="kubernetes application modernization infrastructure technology sociotechnical" />
+  <meta name="author" content="lmpixels" />
+  <link rel="shortcut icon" href="/favicon.ico">
 
 
-    <link rel="stylesheet" href="/css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
+  <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
 
-    <script src="/js/modernizr.custom.js"></script>
+  <script src="/js/modernizr.custom.js"></script>
 
-    <!-- Twitter cards -->
-    <meta name="twitter:site"    content="@{{ site.twitter_username }}">
-    <meta name="twitter:creator" content="@{{ site.twitter_username }}">
-    <meta name="twitter:title"   content="{{ page.title }}">
-
-    {% if page.summary %}
-    <meta name="twitter:description" content="{{ page.summary }}">
-    <!-- linked in -->
-    <meta property="og:description" content="{{ page.summary }}" />
-    <!-- end of linked in -->
-    {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
-    {% endif %}
-
-    {% if page.header_image %}
-    <meta name="twitter:card"  content="summary_large_image">
-    <meta name="twitter:image" content="{{ site.url }}/img/blog-headers/{{ page.header_image }}">
-    <!-- linked in -->
-    <meta property="og:image" content="{{ site.url }}/img/blog-headers/{{ page.header_image }}" />
-    <!-- end of linked in -->
-    {% else %}
-    <meta name="twitter:card"  content="summary">
-    <meta name="twitter:image" content="{{ site.title_image }}">
-    {% endif %}
-    <!-- end of Twitter cards -->
-  </head>
+  <!-- Twitter cards -->
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta property="og:title" content="{{ page.title }}" />
 
 
+  {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}">
+  <!-- linked in -->
+  <meta property="og:description" content="{{ page.summary }}" />
+  <!-- end of linked in -->
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
 
-
+  {% if page.header_image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}/img/blog-headers/{{ page.header_image }}">
+  <!-- linked in -->
+  <meta property="og:image" content="{{ site.url }}/img/blog-headers/{{ page.header_image }}" />
+  <!-- end of linked in -->
+  {% else %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{{ site.title_image }}">
+  {% endif %}
+  <!-- end of Twitter cards -->
+</head>
