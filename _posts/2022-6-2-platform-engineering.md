@@ -6,7 +6,7 @@ categories:
 - building-platforms
 - platform-engineering
 - tanzu
-summary: How does one find that golden path to production?
+summary: How does one find that golden path to production? In this post I discuss where sysadmin, devops, SRE, and platforms are going
 header_image: "treehouse.jpg"
 ---
 
