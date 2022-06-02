@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Platform Engineering"
+title:  "Platform Engineering - Let's Run Apps"
 date:   2022-6-2
 categories: 
 - building-platforms
@@ -36,7 +36,7 @@ Ultimately, I think "developer experience" is the key phrase here. Do developers
 
 ## Golden Path to Running Apps
 
-So what is platform engineering? According to [Platformengineering.com](https://platformengineering.org/blog/what-is-platform-engineering) it's:
+So what is platform engineering? According to [Platformengineering.org](https://platformengineering.org/blog/what-is-platform-engineering) it's:
 
 >...the discipline of designing and building toolchains and workflows that enable self-service capabilities for software engineering organizations in the cloud-native era. Platform engineers provide an integrated product most often referred to as an “Internal Developer Platform” covering the operational necessities of the entire lifecycle of an application.
 
