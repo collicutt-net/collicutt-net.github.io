@@ -150,10 +150,10 @@ I wonder why OpenAI has nerfed ChatGPT so badly. I can't imagine it would remain
 Reasons for nerfing:
 
 - Preparing for legal challenges
-- Preparing another product
+- Preparing another product specifically for writing code
 - They don't want to be responsible for the code it writes
-- Security concerns
-- Getting ready for extensive  (but why regulation on writing code?)
+- Security concerns, e.g. writing code that could be used for hacking
+- Getting ready for extensive regulation (but why regulation on writing code?)
 
 I was expecting GenAI to get better at coding, but here we are, only a few months in, and it's considerably worse, basically unusable. Maybe it could be helpful with particular, singular functions, but it's not going to write a couple hundred line file for you.
 
