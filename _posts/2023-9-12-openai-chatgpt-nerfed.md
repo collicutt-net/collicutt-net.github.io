@@ -133,7 +133,7 @@ I don't know what is going on behind the scenes, but it seems like a real setbac
 
 ## Nerfing Reports
 
-It's not just me. This was from a couple months ago:
+It's not just me. This was from a couple months ago, though this is not directly related to writing code:
 
 > Most notably, GPT-4's ability to identify prime numbers reportedly plunged dramatically from an accuracy of 97.6 percent in March to just 2.4 percent in June. Strangely, GPT-3.5 showed improved performance in the same period.
 
@@ -149,11 +149,11 @@ I wonder why OpenAI has nerfed ChatGPT so badly. I can't imagine it would remain
 
 Reasons for nerfing:
 
-- Legal reasons
+- Preparing for legal challenges
 - Preparing another product
 - They don't want to be responsible for the code it writes
 - Security concerns
-- Getting ready for regulation
+- Getting ready for extensive  (but why regulation on writing code?)
 
 I was expecting GenAI to get better at coding, but here we are, only a few months in, and it's considerably worse, basically unusable. Maybe it could be helpful with particular, singular functions, but it's not going to write a couple hundred line file for you.
 
